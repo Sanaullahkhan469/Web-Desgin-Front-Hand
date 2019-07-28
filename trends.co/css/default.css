@@ -1,0 +1,688 @@
+/*Cascading StyleSheet*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none !important;
+}
+
+/**********************
+        HEADER
+**********************/
+header{
+    background-image: url("../img/header-bg.png");
+    height: 640px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/***********
+    LOGO
+***********/
+header .logo img{
+    max-width: 200px;
+}
+
+
+/************************
+    HEADER CONTAINER
+************************/
+.header-container{
+    padding: 5.5rem 0 0;
+}
+.header-container .red{
+    color: #d62828;
+}
+.header-container h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: #1c1c1c;
+    max-width: 600px;
+    margin: auto;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-family: Avenir-Black;
+}
+.header-container h3{
+    font-size: 18px;
+    color: #1c1c1c;
+    line-height: 32px;
+    max-width: 730px;
+    margin: 25px auto;
+    font-weight: 400;
+    font-family: Avenir-Book;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.header-container h3 span{
+    font-weight: 800;
+}
+.header-container .subscribe-button{
+    max-width: 200px;
+    padding: 3px 2px;
+    font-size: 10px;
+    background: #d62828;
+    margin: 35px auto auto;
+    text-transform: uppercase;
+    border: 2px solid #d62828;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.header-container .subscribe-button .btn-sub{
+    font-family: Avenir-Black;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    padding-top: 9px;
+}
+.header-container .login-link{
+    cursor: pointer;
+    font-family: Avenir,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    z-index: 9999;
+    max-width: 230px;
+    text-align: center;
+    margin: 10px auto 0;
+    background-color: initial;
+    right: 35px;
+    border-radius: 3px;
+    padding: 10px;
+    color: #44a0ca;
+    letter-spacing: .5px;
+}
+.header-container .login-link a{
+    color: #44a0ca;
+}
+
+
+
+
+/********************
+        MAIN
+********************/
+main{
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+/***********************
+    GREY BG SECTION
+***********************/
+.grey-bg-section{
+    background-color: #ebf0f3;
+    padding-top: 100px;
+}
+.grey-bg-section h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d62828;
+    letter-spacing: 1px;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+.grey-bg-section .heading-underline{
+    margin-bottom: 50px;
+    height: 1px;
+    width: 250px;
+    background-color: #dadada;
+    margin: 0 0 50px;
+    text-align: left;
+}
+.grey-bg-section .paragraph-container{
+    padding-bottom: 100px;
+}
+.grey-bg-section .paragraph-container p {
+    color: #1c1c1c;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 600px;
+    margin: 20px 0;
+    font-weight: 300;
+    text-align: left;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+.grey-bg-section .paragraph-container h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1c1c1c
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+
+
+/*****************************
+    HUSTLE TRENDS SECTION
+*****************************/
+.hustle-trend-section {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.hustle-trend-section h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d62828;
+    letter-spacing: 1px;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+.hustle-trend-section .heading-underline{
+    margin-bottom: 50px;
+    height: 1px;
+    width: 250px;
+    background-color: #dadada;
+    margin: 0 0 50px;
+    text-align: left;
+}
+.hustle-trend-section .sam-letter{
+    background-color: #fff;
+    padding: 50px;
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 10px 10px 30px 10px hsla(0,0%,87.8%,.75);
+    font-size: 18px;
+    line-height: 26px;
+}
+.hustle-trend-section .sam-letter p{
+    font-family: Avenir,Open Sans,sans-serif;
+}
+
+
+/**************************
+    SECTION JUMBO TEXT
+**************************/
+.section-jumbo-text{
+    background-color: #f8ece4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section-jumbo-text h1{
+    color: #d62828;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    font-family: Avenir,Open Sans,sans-serif;
+}
+
+
+/********************
+    WHAT YOU GET
+********************/
+.what-you-get{
+    padding-top: 100px;
+}
+.what-you-get h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d62828;
+    letter-spacing: 1px;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+.what-you-get .heading-underline{
+    margin-bottom: 50px;
+    height: 1px;
+    width: 250px;
+    background-color: #dadada;
+    margin: 0 0 50px;
+    text-align: left;
+}
+.what-you-get .signup-checklist {
+    display: inline-block;
+    margin: 30px 0 100px;
+    max-width: 70%;
+    text-align: left;
+    list-style: none;
+}
+.what-you-get .signup-checklist .signup-checklist-item{
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.what-you-get .signup-checklist .list-bullet {
+    display: inline-block;
+    margin-left: -50px;
+    margin-right: 38px;
+    height: 11px;
+    width: 11px;
+    background: #d62828;
+    border-radius: 5px;
+}
+
+
+/********************
+    ICON SECTION
+********************/
+.icon-section{
+    background-color: hsla(0,0%,53.3%,.05);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.icon-section .icon-group{
+    text-align: center;
+    padding: 30px 0;
+}
+.icon-section .icon-group img {
+    max-height: 70px;
+    box-shadow: none;
+    max-width: 320px;
+}
+.icon-section .icon-group .icon-title {
+    font-size: 16px;
+    margin: 25px 0 15px;
+    color: #d62828;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: Avenir-Black;
+}
+.icon-section .icon-group .icon-text {
+    max-width: 80%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1c1c1c;
+    letter-spacing: .3px;
+}
+
+
+/*****************************
+    TESTIMONIALS SECTION
+*****************************/
+.testimonials{
+    padding-top: 80px;
+    font-family: Avenir;
+    padding-bottom: 80px;
+}
+.testimonials h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d62828;
+    letter-spacing: 1px;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+.testimonials .heading-underline{
+    height: 1px;
+    width: 200px;
+    background-color: #e7e6e6;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.testimonials .testimonials-card{
+    margin-top: 60px;
+    padding-right: 20px;
+}
+.testimonials .testimonials-card .name {
+    color: #1c1c1c;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    font-family: Avenir-Black;
+}
+.testimonials .testimonials-card .title {
+    color: #d62828;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.testimonials .testimonials-card .title a.company-name {
+    font-weight: 600;
+    font-size: 12px;
+    color: #d62828;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.testimonials .testimonials-card .quote-text {
+    color: #404040;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.testimonials .testimonials-card .quote-text .quote {
+    color: #1c1c1c;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+/*******************************
+    SECTION JUMBO TEXT TWO
+*******************************/
+.section-jumbo-text-two{
+    background-color: #ebf0f3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section-jumbo-text-two h1{
+    max-width: 80%;
+    color: #d62828;
+    padding-bottom: 30px;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+.section-jumbo-text-two h2{
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 300;
+    font-family: Avenir,Open Sans,sans-serif;
+}
+.section-jumbo-text-two h2 strong{
+    font-weight: 800;
+}
+
+
+/*************************
+    SECTION PORTFOLIO
+*************************/
+.section-portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-portfolio .portfolio-card{
+    margin-bottom: 25px;
+}
+.section-portfolio .img-bg{
+    background-color: #ccc;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    box-shadow: 20px 20px 30px 10px hsla(0,0%,87.8%,.75);
+    -webkit-filter: grayscale(100%);
+}
+.section-portfolio .portfolio-img-1{
+    background-image: url("../img/portfolio-1.png");
+}
+.section-portfolio .portfolio-img-2{
+    background-image: url("../img/portfolio-2.png");
+}
+.section-portfolio .portfolio-img-3{
+    background-image: url("../img/portfolio-3.jpeg");
+}
+.section-portfolio .portfolio-img-4{
+    background-image: url("../img/portfolio-4.jpg");
+}
+.section-portfolio .portfolio-img-5{
+    background-image: url("../img/portfolio-5.jpg");
+}
+.section-portfolio .portfolio-img-6{
+    background-image: url("../img/portfolio-6.jpg");
+}
+.section-portfolio .portfolio-img-7{
+    background-image: url("../img/portfolio-7.jpg");
+}
+.section-portfolio .portfolio-img-8{
+    background-image: url("../img/portfolio-8.jpeg");
+}
+.section-portfolio .portfolio-img-9{
+    background-image: url("../img/portfolio-9.jpg");
+}
+.section-portfolio .portfolio-img-10{
+    background-image: url("../img/portfolio-10.jpg");
+}
+.section-portfolio .portfolio-img-11{
+    background-image: url("../img/portfolio-11.jpg");
+}
+.section-portfolio .portfolio-img-12{
+    background-image: url("../img/portfolio-12.jpg");
+}
+.section-portfolio .portfolio-text{
+    position: absolute;
+    background-color: hsla(0,0%,100%,.9);
+    padding: 10px 10px 5px;
+    bottom: 0;
+    width: 80%;
+    margin: 0 30px 0 0;
+}
+.section-portfolio .portfolio-text h4.name{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding-bottom: 2px;
+    margin: 0;
+    color: #d62828;
+}
+.section-portfolio .portfolio-text .title {
+    font-size: 15px;
+    color: #1c1c1c;
+    padding: 0;
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+
+/**********************
+    SECTION SIGNUP
+**********************/
+.section-signup{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-signup h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d62828;
+    letter-spacing: 1px;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+    padding-bottom: 10px;
+}
+.section-signup .heading-underline{
+    height: 1px;
+    width: 250px;
+    margin-bottom: 50px;
+    background-color: #dadada;
+    text-align: left;
+}
+.section-signup .lifetime {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 70%;
+}
+.section-signup .subscribe-button{
+    max-width: 200px;
+    padding: 3px 2px;
+    font-size: 10px;
+    background: #d62828;
+    margin-top: 35px;
+    text-transform: uppercase;
+    border: 2px solid #d62828;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.section-signup .subscribe-button .btn-sub{
+    font-family: Avenir-Black;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    padding-top: 9px;
+}
+.section-signup .signup-checklist {
+    display: inline-block;
+    margin: 0 0 100px;
+    max-width: 100%;
+    text-align: left;
+    list-style: none;
+}
+.section-signup .signup-checklist-item{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.section-signup .signup-checklist-item .list-bullet {
+    display: inline-block;
+    margin-left: -50px;
+    margin-right: 38px;
+    height: 11px;
+    width: 11px;
+    background: #d62828;
+    border-radius: 5px;
+}
+
+
+/*********************
+    SECTION ABOUT
+*********************/
+.section-about{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f8ece4;
+}
+.section-about h1{
+    margin: 30px auto 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d62828;
+    letter-spacing: 1px;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+.section-about .heading-underline{
+    height: 1px;
+    width: 250px;
+    background-color: #dadada;
+    margin: 0 0 50px;
+    text-align: left;
+}
+.section-about p{
+    font-size: 18px;
+    color: #1c1c1c;
+    line-height: 36px;
+    margin: 30px 0 10px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 80%;
+}
+.section-about p a{
+    color: #d62828;
+    font-weight: 800;
+}
+.section-about .text-container {
+    padding: 30px 0 20px;
+}
+.section-about .text-container p.text-title {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 800;
+}
+.section-about .text-container p.image-overlay-text {
+    color: #1c1c1c;
+    padding: 0 0 20px 0p;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 80%;
+}
+
+
+/*************************
+    SECTION MISSION
+*************************/
+.section-mission{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.section-mission h1{
+    margin: 0 auto 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d62828;
+    letter-spacing: 1px;
+    font-family: Avenir-Heavy,Open Sans,sans-serif;
+}
+.section-mission .heading-underline{
+    height: 1px;
+    width: 250px;
+    background-color: #dadada;
+    margin: 0 0 50px;
+    text-align: left;
+}
+.section-mission p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+
+/******************
+    BOTTOM IMG
+******************/
+.bottom-img{
+    background-image: url("../img/bottom-img.png");
+    height: 400px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-filter: grayscale(100%);
+}
+
+
+
+
+/***********************
+        FOOTER
+***********************/
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+footer .footer-bottom {
+    background-color: #fff;
+    height: 50px;
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+}
+footer .footer-bottom a {
+    color: #cf2121;
+    font-family: Muli,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 20px;
+    z-index: 9001;
+}
